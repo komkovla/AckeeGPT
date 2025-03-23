@@ -49,7 +49,7 @@ function App() {
       setMessages(prev => [...prev, streamingMessage]);
       setIsStreaming(true);
 
-      const response = await sendMessage(
+      await sendMessage(
         messageText, 
         "ft:gpt-4o-2024-08-06:vladislav-komkov::BDtOpcWX", 
         selectedContext.prompt + selectedPersona.prompt + "Do not anwser questions that are not related to Ackee.",

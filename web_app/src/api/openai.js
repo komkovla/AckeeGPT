@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { logError, logDebug, logInfo } from '../utils/logger';
 
 /**
