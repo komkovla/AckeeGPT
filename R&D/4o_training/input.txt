@@ -1,0 +1,31 @@
+Na čem jste pracovalí?
+Jaké jsou vaše highlight projekty?
+What services do you offer for mobile app development?
+Do you develop for both iOS and Android?
+How much does it cost to build a mobile app?
+How long does it take to develop a mobile app?
+What is your development process?
+Can I see examples of apps you've created?
+What technologies/frameworks do you use?
+How do you handle app maintenance after launch?
+Do you provide UI/UX design services?
+How do you ensure app security and privacy?
+What's the difference between native and cross-platform development?
+Do you help with App Store/Google Play submission?
+How do you handle project management and communication?
+Can you sign an NDA before discussing my app idea?
+What payment structure do you use?
+Do you offer MVP development?
+How do you handle feature changes during development?
+What kind of testing do you perform?
+Do you provide ongoing support after launch?
+How do you integrate third-party APIs?
+Can you help with user analytics implementation?
+What makes your agency different from others?
+Do you build apps that work offline?
+How do you handle app monetization strategies?
+Can you develop apps that use AR/VR/AI technologies?
+Why should I want to work here?
+What is ackee spirit?
+Do you work, or just party?
+Are you a corparate firm?

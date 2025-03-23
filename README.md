@@ -1,35 +1,51 @@
-# ChatBot Web App
+# AckeeGpt
 
-A minimalist chat interface using OpenAI's API, with model selection and persona options.
+A project that combines Ackee data with GPT capabilities.
 
-## Features
+This is Hackeeton project combining Research about Fine-tunning LLM and creating a stialised chat bot
 
-- OpenAI API integration
-- Model selection (GPT-3.5, GPT-4, etc.)
-- Persona selection to customize bot behavior
-- Minimalist UI with image on left, chat on right
+## Prerequisites
+
+- Node.js
+- Python 3.x
+- Git
 
 ## Setup
 
-1. Clone this repository
-2. Run `npm install` to install dependencies
-3. Create a `.env` file in the root directory with your OpenAI API key:
-   ```
-   REACT_APP_OPENAI_API_KEY=your_api_key_here
-   ```
-4. Run `npm start` to start the development server
-5. Open [http://localhost:3000](http://localhost:3000) in your browser
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/AckeeGpt.git
+cd AckeeGpt
+```
 
-## Usage
+2. Install Node.js dependencies:
+```bash
+npm install
+```
 
-1. Select an AI model from the dropdown
-2. Choose a persona for the AI
-3. Type your message and press Enter to send
-4. View the AI's response in the chat window
+3. Set up Python virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
 
-## Technologies Used
+4. Install Python dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-- React
-- OpenAI API
-- Styled Components
-- Axios 
+5. Create a `.env` file in the root directory and add your environment variables:
+```env
+# Add your environment variables here
+```
+
+## Development
+
+To start the development server:
+```bash
+npm run dev
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
