@@ -8,7 +8,9 @@ const ChatInterface = ({ messages, onSendMessage, isLoading, isStreaming, onClea
   
   // Auto-scroll to bottom of messages
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (messagesEndRef.current) {
+      messagesEndRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
   }, [messages]);
   
   const handleSubmit = (e) => {
@@ -43,7 +45,7 @@ const ChatInterface = ({ messages, onSendMessage, isLoading, isStreaming, onClea
             isError={message.isError}
           >
             <MessageContent>
-              <ReactMarkdown>{message.content}</ReactMarkdown>
+              <ReactMarkdown>{message.content || ''}</ReactMarkdown>
             </MessageContent>
           </MessageBubble>
         ))}
