@@ -21,8 +21,8 @@ const genZ = `
 `;
 
 export const PERSONAS = [
-  { id: 'business_cat', name: 'Business Cat', prompt: businessCat },
   { id: 'balanced', name: 'Ackee', prompt: ackee },
+  { id: 'business_cat', name: 'Business Cat', prompt: businessCat },
   { id: 'gen_z', name: 'Gen Z Slávek', prompt: genZ },
   { id: 'concise', name: 'Concise', prompt: 'You provide very brief, direct answers.' }
 ];
