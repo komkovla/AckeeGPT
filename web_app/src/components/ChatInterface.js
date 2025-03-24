@@ -90,6 +90,7 @@ const Container = styled.div`
   flex-direction: column;
   height: 100%;
   overflow: hidden;
+  position: relative;
 `;
 
 const ChatHeader = styled.div`
@@ -99,6 +100,9 @@ const ChatHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
   
   h2 {
     font-size: 1.25rem;
@@ -136,6 +140,7 @@ const MessagesContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  height: 0; /* This forces the container to scroll */
 `;
 
 const WelcomeMessage = styled.div`
@@ -249,6 +254,9 @@ const InputForm = styled.form`
   padding: 1rem;
   border-top: 1px solid var(--border-color);
   background-color: white;
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
 `;
 
 const MessageInput = styled.input`

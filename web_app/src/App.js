@@ -188,6 +188,10 @@ const MainContent = styled.div`
   display: flex;
   flex: 1;
   overflow: hidden;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const LeftPanel = styled.div`
@@ -199,9 +203,11 @@ const LeftPanel = styled.div`
   
   @media (max-width: 768px) {
     width: 100%;
-    height: 40%;
-    order: 2;
     padding: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
   }
 `;
 
@@ -211,29 +217,47 @@ const ImageContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+  
+  @media (max-width: 768px) {
+    margin-bottom: 0;
+    flex: 0;
+  }
 `;
 
 const BotImage = styled.img`
   max-width: 80%;
   max-height: 60%;
   object-fit: contain;
+  
+  @media (max-width: 768px) {
+    max-width: 120px;
+    max-height: 80px;
+  }
 `;
 
 const SelectorsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  
+  @media (max-width: 768px) {
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+  }
 `;
 
 const RightPanel = styled.div`
   width: 60%;
   height: 100%;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   
   @media (max-width: 768px) {
     width: 100%;
-    height: 60%;
-    order: 1;
+    height: calc(100% - 120px);
   }
 `;
 
